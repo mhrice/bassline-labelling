@@ -32,10 +32,8 @@ def main():
             generate_midi(
                 output_dir / f"{p.stem}.csv", output_dir / f"{p.stem}_transcription.mid"
             )
-            # fs = FluidSynth()
-            fs = FluidSynth(
-                "/Users/matthewrice/Desktop/SGM-v2.01-YamahaGrand-Guit-Bass-v2.7.sf2"
-            )
+            fs = FluidSynth()
+
 
             fs.midi_to_audio(
                 output_dir / f"{p.stem}_transcription.mid",

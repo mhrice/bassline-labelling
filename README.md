@@ -3,12 +3,20 @@ This is a demo project to evaluate various methods to transcribe and reproduce b
 In this project, we evaluated using various methods to transcribe and reproduce bass lines from audio recordings. The methods are: "baseline", "crepe_notes", "pesto_notes", and "basic_pitch". See the attached report for more details.
 
 ## Installation
+Ensure tensorflow is installed on your system. Then install the project using pip:
 ```bash
 pip install -e .
 ```
 Note that this repo only works with python==3.10
 
 Download the example-files from [here](https://drive.google.com/drive/folders/1q3AE9hhJQ5M0abaz15L7ccNpIhmQb1Yw?usp=sharing) and place them in a directory called 'example-files' in the root of the project.
+
+For tensorflow, since I'm on an M-series Mac, I had to install it using the following command:
+```bash
+python -m pip install tensorflow-macos
+
+python -m pip install tensorflow-metal
+```
 
 ## Usage
 ```bash
