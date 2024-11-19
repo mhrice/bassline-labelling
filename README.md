@@ -8,7 +8,7 @@ pip install -e .
 ```
 Note that this repo only works with python==3.10
 
-Download the example-files from [here](https://drive.google.com/drive/folders/1) and place them in a directory called 'example-files' in the root of the project.
+Download the example-files from [here](https://drive.google.com/drive/folders/1q3AE9hhJQ5M0abaz15L7ccNpIhmQb1Yw?usp=sharing) and place them in a directory called 'example-files' in the root of the project.
 
 ## Usage
 ```bash
