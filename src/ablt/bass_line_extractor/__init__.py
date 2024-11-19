@@ -1,0 +1,2 @@
+from .extract import extract_single_bass_line
+from .extractor_class import BassLineExtractor

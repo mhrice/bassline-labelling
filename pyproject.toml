@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bass_line_labelling"
+version = "0.1.0"
+description = "Simple bass line labelling project"
+authors = [
+    { name="Matthew Rice", email="mattricesound@gmail.com" }
+]
+requires-python = ">=3.10, <=3.11"
+dependencies = [
+    "crepe",
+    "madmom @ git+https://github.com/CPJKU/madmom.git",
+    "numpy==1.26.4",
+    "midi2audio",
+    "mir-eval",
+    "torch",
+    "pandas",
+    "pesto-pitch",
+    "basic-pitch[tf]",
+    "psutil",
+    "pretty_midi",
+]

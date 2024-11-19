@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bass_line_labelling
+Version: 0.1.0
+Summary: Simple bass line labelling project
+Author-email: Matthew Rice <mattricesound@gmail.com>
+Requires-Python: <=3.11,>=3.10
+Requires-Dist: crepe
+Requires-Dist: madmom@ git+https://github.com/CPJKU/madmom.git
+Requires-Dist: numpy==1.26.4
+Requires-Dist: midi2audio
+Requires-Dist: mir-eval
+Requires-Dist: torch
+Requires-Dist: pandas
+Requires-Dist: pesto-pitch
+Requires-Dist: basic-pitch[tf]

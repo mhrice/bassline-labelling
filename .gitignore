@@ -1,0 +1,13 @@
+env
+.vscode
+data
+FiloBass
+*.ipynb
+__pycache__/
+.DS_Store
+.pkl
+outputs
+notes.txt
+*.pkl
+example-files
+*.pdf
